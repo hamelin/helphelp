@@ -15,7 +15,7 @@ MAP_ALIASES = Mapping[str, str]
 Module = type(os)
 
 
-lg.basicConfig(level=lg.DEBUG)
+lg.basicConfig(level=lg.WARNING)
 
 
 
