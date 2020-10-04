@@ -14,7 +14,7 @@ setup(
     entry_points={
         "console_scripts": ["pyh = helphelp:main"]
     },
-    version="2.0",
+    version="2.0.1",
     description="man-like tool to get online help on Python modules, classes and functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
