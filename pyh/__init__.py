@@ -79,7 +79,7 @@ def main():
             _log.error(f"Module {module_aliased(args.module, aliases)} cannot be imported.")
             sys.exit(1)
         try:
-            construct = getattr(module, args.construct)
+            construct = eval(args.construct, module.__dict__)
         except AttributeError:
             _log.error(
                 f"Construct {args.construct} is not an attribute of module {module_aliased(args.module, aliases)}."
