@@ -1,4 +1,4 @@
-name: pyh
+name: helphelp
 dependencies:
   - python>=3.6
   - pip

@@ -1,7 +1,7 @@
-# `pyh` -- Get help on Python modules, classes and functions
+# Command-line help on Python modules, classes and functions
 
-This tool work somewhat like UNIX's [`man`](https://fr.wikipedia.org/wiki/Man_%28Unix%29), but for Python's
-docstring-based help system. In a nutshell:
+This package procures the command-line tool **`pyh`**. It works somewhat like UNIX's
+[`man`](https://fr.wikipedia.org/wiki/Man_%28Unix%29), but for Python's docstring-based help system. In a nutshell:
 
 ```
 $ pyh print

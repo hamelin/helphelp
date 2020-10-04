@@ -9,10 +9,10 @@ long_description = readme[:readme.index("---")]
 
 
 setup(
-    name="pyh",
+    name="helphelp",
     packages=find_packages(),
     entry_points={
-        "console_scripts": ["pyh = pyh:main"]
+        "console_scripts": ["pyh = helphelp:main"]
     },
     version="1.0.1",
     description="man-like tool to get online help on Python modules, classes and functions",
@@ -20,6 +20,6 @@ setup(
     long_description_content_type="text/markdown",
     author="Benoit Hamelin",
     author_email="benoit@benoithamelin.com",
-    url="https://github.com/hamelin/pyh/",
+    url="https://github.com/hamelin/helphelp/",
     install_requires=["nestedtext"]
 )
