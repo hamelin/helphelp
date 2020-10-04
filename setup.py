@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
+import pathlib as pl
 from setuptools import setup, find_packages
 
 
-with open("README.md", "rt", encoding="utf-8") as file:
-    long_description = file.read()
+readme = pl.Path("README.md").read_text(encoding="utf-8")
+long_description = readme[:readme.index("---")]
+
 
 setup(
     name="pyh",
