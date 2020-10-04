@@ -1,0 +1,7 @@
+name: pyh
+dependencies:
+  - python>=3.6
+  - pip
+  - pip:
+      - -e .
+      - nestedtext
