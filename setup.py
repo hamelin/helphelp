@@ -12,7 +12,7 @@ setup(
     entry_points={
         "console_scripts": ["pyh = pyh:main"]
     },
-    version="0.1",
+    version="1.0",
     description="man-like tool to get online help on Python modules, classes and functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
