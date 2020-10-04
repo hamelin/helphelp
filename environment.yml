@@ -5,3 +5,7 @@ dependencies:
   - pip:
       - -e .
       - nestedtext
+  - setuptools
+  - rfc3986
+  - keyring
+  - twine
